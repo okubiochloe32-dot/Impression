@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Bootstrap</title>
+    <link rel="stylesheet" href="./blog.css" />
+  </head>
+  <body>
+    <header class="headerContainer">
+      <div class="Logo">
+        <p>Start Bootstrap</p>
+      </div>
+      <nav class="navContainer">
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="">FAQ</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+        </ul>
+      </nav>
+      <div class="hamburgerContainer">
+        <div class="hamburger"></div>
+        <div class="hamburger"></div>
+        <div class="hamburger"></div>
+      </div>
+    </header>
+
+    <main>
+      <section class="companyContainer">
+        <div class="companyHeading">
+          <p><strong>Company Blog</strong></p>
+        </div>
+        <div class="companyHolder">
+          <div class="companyText">
+            <div class="newsContainer">
+              <p class="news"><strong>News</strong></p>
+              <p class="finec"><strong>Article heading goes here</strong></p>
+              <p class="finetc">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Similique delectus ab doloremque, qui doloribus ea officiis...
+              </p>
+              <p class="read">Read more</p>
+            </div>
+          </div>
+          <div class="companyBox">
+            <p>700 x 350</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="container">
+        <div class="flashContainer">
+          <div class="flashOne">
+            <p><strong>News</strong></p>
+          </div>
+          <div class="flash firstflash">
+            <p class="p">May 12, 2023</p>
+            <p class="f">
+              Start Bootstrap releases Bootstrap 5 updates for templates and
+              themes
+            </p>
+            <p class="p">May 5, 2023</p>
+            <p class="f">Bootstrap 5 has officially landed</p>
+          </div>
+          <div class="flash secondflash">
+            <p class="p">April 21, 2023</p>
+            <p class="f">
+              This is another news article headline, but this one is a little
+              bit longer
+            </p>
+            <div class="thirdflash">
+              <p>More news</p>
+            </div>
+          </div>
+        </div>
+        <section class="contactContainer">
+          <div class="contactHolder">
+            <p><strong>Contact</strong></p>
+            <p class="t tone">
+              For press inquiries, email us at <a href="#">press@domain.com</a>
+            </p>
+          </div>
+          <div class="follow">
+            <p><strong>Follow us</strong></p>
+            <div class="imageContainer">
+              <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAMAAABC4vDmAAAAaVBMVEX///8AAADj4+NWVlbGxsaOjo709PTS0tLv7+/r6+vo6Oj6+vrb29uoqKhjY2NcXFy9vb2vr6+bm5s3NzdOTk4tLS22trY8PDxERER7e3uUlJSBgYHMzMxzc3MfHx8QEBAXFxcmJiZra2tpBwi3AAAESklEQVR4nO2ba7eqIBCGFe8XTM1bFy39/z/yWLlPWajMAO2zzuL5tHdL6A2GYRhGw9BoNBqNRqPRaDQajeZ/wiXeecQj7m8r+cHNWmtv3tlbLfV/W49h+GlhvtFUAfNRQr6kKWveJd1lUcajdB9/RZLHlHSjtOdPBllnttz9pgLy88uSphHn5UH/WI+f2IsdveFaPXam3WRF0ogVPp4Lq/b+f8Hds22aNU6Tv6FpVBEaEcmSaWGaHnfXN6PYRQhN0cei+6Q59OzpXCe4P58gRLXbmmaU/F3TR4sWPFZHoKYOsJ4OUxvoWHlATeZ5asjx6/2/fiYBbVouh0HNyCZJWbrdOXk6mhqyZVHMOLmx09UcI/U6C3v+JWvAJBWjPYWpY5nmhcey7Ne214pXUwbSlMTpad/d/+T6hmrenNOVRDuIpksH7D9/68Di2nLAS2/ixOd4qvd2Pc8AQ8385xdzOkP7s+mwPViL8coqA6/TYU1EyQrQZqA0FdyOkDADovq82ijAaOK0p3v/CzPRhiuNzhhN3JKM5973KWvZtGBe6saFY3N54d0nPOkXRwssasMcPvBXO7OZRyWwKP7wbmJ9eTcOY7MCizpARTE81ZwyP78t5hQqiv9oNeFa250Wh+o1riHKRW0P1YP+QNN4kgYVBZ4+w+AYqomy2SUOzbxu+9EZICf1IOyB3wHmCBcFN1woGUKU4SgWBfPnxrTYT2pFAYL/G4fB+4IqdgptkZN5LTIyRhXZVaEomKbJmiyHpkd1qjqgqOc21q3lv8SwgKKw5xIQ0CCB9F8QBXVTLuhYiQQY4sHTTAjqtXifSaxe1A6qCXuwhAAOhr+wG/Nnz5+oN3W4Ju7IEw3CpAx47hkIdyZuRrjf7hkPJFX9ilK3gJs9A5Mc4Gczr7TIR0JPHgJ3ysrGasBrGu1KkbUjPOcLwWKmSoRGtCLgvHmpCAdv5j9E9k52TCyldILQUylRUy4kxqdeTAiJvewAzV6sUAoWR/CnXgAgIqkZKsKqTrjoReKs/SBmUTfk7zQNprBgDk+ZAQwxZ/5AdgADz76ykHsEvEiqlZIaF+Oi4E/AxQYrJOJWPuFLO26VEuvypKkCpl43kGPt4hHLHBlnU2jqjoNcNDLmv8IGQKhYrKeqmjN2Bmywhz0S8xCROLUxjkvGlreCj7iHAN6rg/EwBq9Wk485B17Vzl2G8gsqC5ajCpWebRRWdkfsau5NLHVF+94ReYQ4SgtW5rhhXiBv2Eoly871MqfGCRpJwFcdbMLUjsMgCEhsp3lb7AUuIa+o63QmqE2ExUHqqsOt/DcK8M3ZBm4uenPcZwoWXXTEW7dp1lSRb/IpNtKsK5XvEtlDD1ZUDsC6DDgxcAO26HfeYAryhE9YnXz1FTCSbjr1Jre/9ZbXKx5th+JjzLrGak/Vb+j5i0+8c5rlDyit7HMc/jNvE2o0Go1Go9FoNBqNRiPGHyQJPI52tFIpAAAAAElFTkSuQmCC"
+                alt=""
+              />
+              <img
+                src="data:image/png;base64,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"
+                alt=""
+              />
+              <img
+                src="data:image/png;base64,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"
+                alt=""
+              />
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section class="everything">
+        <div class="frontBox">
+          <div class="mine">
+            <p class="minet"><strong>From our blog</strong></p>
+            <p class="minette">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
+              fugit ratione dicta mollitia. Officiis ad.
+            </p>
+          </div>
+        </div>
+        <section class="myContainer">
+          <section class="lineContainer">
+            <div class="field One">600 x 350</div>
+            <div class="texting">
+              <br />
+              <p class="fine"><strong>News</strong></p>
+              <p><strong>Blog post title</strong></p>
+              <br />
+              <p class="finet">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <br />
+              <div class="imgBox">
+                <img src="https://dummyimage.com/40x40/ced4da/6c757d" alt="" />
+                <p class="img">
+                  <strong>Kelly Rowan</strong>
+                  <br />
+                  March 12, 2023 . 6 min read
+                </p>
+              </div>
+            </div>
+          </section>
+          <section class="lineContainer">
+            <div class="field Two">600 x 350</div>
+            <div class="texting">
+              <br />
+              <p class="fine"><strong>Media</strong></p>
+              <p><strong>Another blog post title</strong></p>
+              <br />
+              <p class="finet">
+                This text is a bit longer to illustrate the adaptive height of
+                each card. Some quick example text to build on the card title
+                and make up the bulk of the card's content.
+              </p>
+              <br />
+              <div class="imgBox">
+                <img src="https://dummyimage.com/40x40/ced4da/6c757d" alt="" />
+                <p class="img">
+                  <strong>Josiah Barclay</strong>
+                  <br />
+                  March 23, 2023 . 4 min read
+                </p>
+              </div>
+            </div>
+          </section>
+          <section class="lineContainer">
+            <div class="field Three">600 x 350</div>
+            <div class="texting">
+              <br />
+              <p class="fine"><strong>News</strong></p>
+              <p>
+                <strong
+                  >The last blog post title is a little bit longer than the
+                  others</strong
+                >
+              </p>
+              <br />
+              <p class="finet">
+                Some more quick example text to build on the card title and make
+                up the bulk of the card's content.
+              </p>
+              <br />
+              <div class="imgBox">
+                <img src="https://dummyimage.com/40x40/ced4da/6c757d" alt="" />
+                <p class="img">
+                  <strong>Evelyn Martinez</strong>
+                  <br />
+                  April 2, 2023 . 10 min read
+                </p>
+              </div>
+            </div>
+          </section>
+        </section>
+      </section>
+    </main>
+
+    <footer class="lastPart">
+      <div class="bestPart">
+        <p>Copyright &copy; Your Website 2023</p>
+        <l>
+          <li>Privacy</li>
+          <li>Terms</li>
+          <li>Contacts</li>
+        </l>
+      </div>
+    </footer>
+  </body>
+</html>
