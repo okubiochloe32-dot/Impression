@@ -1,0 +1,267 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.headerContainer {
+  /* border: 2px solid blue; */
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 9vh;
+  background-color: rgba(0, 0, 0, 0.847);
+  font-size: 20px;
+}
+
+.Logo {
+  /* border: 2px solid blue; */
+  width: 27%;
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.354);
+}
+
+.navContainer {
+  /* border: 2px solid red; */
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 17px;
+}
+
+.navContainer ul {
+  /* border: 2px solid green; */
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.hamburgerContainer {
+  display: none;
+}
+
+@media (width <1100px) {
+  .navContainer {
+    display: none;
+  }
+
+  .hamburgerContainer {
+    display: block;
+    border: 1px solid rgba(255, 255, 255, 0.354);
+    border-radius: 5px;
+    padding: 5px;
+
+    .hamburger {
+      width: 30px;
+      height: 2px;
+      background-color: rgba(255, 255, 255, 0.354);
+      margin: 5px;
+    }
+  }
+}
+
+.entireContainer{
+    /* border: 2px solid green; */
+    width: 99.4vw;
+    height: 155vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.emailContainer{
+    /* border: 2px solid yellow; */
+    width: 80%;
+    height: 130vh;
+    border-radius: 10px;
+    background-color:rgba(241, 238, 238, 0.541);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+.emailHolder{
+    /* border: 2px solid purple; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.emailHolder img{
+    border: 1.9px solid rgb(5, 5, 137);
+    width: 45px;
+    border-radius: 7px;
+}
+.textHolder{
+    /* border: 2px solid grey; */
+    text-align: center;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+}
+.textHolder p strong{
+    font-size: 35px;
+}
+.textHolder p{
+    font-size: 18px;
+}
+.inputContainer{
+    /* border: 2px solid brown; */
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.inputContainer input{
+    border: 1px solid rgb(186, 182, 182);
+    width: 390px;
+    height: 50px;
+    border-radius: 7px;
+    font-size: 16px;
+    padding-left: 15px;
+}
+.inputContainer textarea{
+     border: 1px solid  rgb(186, 182, 182);
+     width: 390px;
+     border-radius: 7px;
+     height: 170px;
+     padding-left: 15px;
+     padding-top: 15px;
+     font-size: 16px;
+}
+.inputContainer button{
+    width: 410px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 9px;
+    border: none;
+    color: white;
+    background-color: #216cedab;
+}
+@media (width <900px){
+    .textHolder p strong{
+        font-size: 30px;
+    }
+     .inputContainer input{
+        width: 330px;
+    }
+    .inputContainer textarea{
+        width: 330px;
+    }
+    .inputContainer button{
+        width: 345px;
+    }
+}
+
+.endingContainer{
+    /* border: 2px solid brown; */
+    width: 99.4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.endingHolder{
+    /* border: 2px solid green; */
+    width: 80%;
+    display: flex;
+}
+.ending{
+    /* border: 2px solid red ; */
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: ;
+    justify-content: space-evenly;
+}
+.ending img{
+    border: 2px solid rgb(0, 128, 255);
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.endOne{
+    /* border: 2px solid black; */
+    width: 220px;
+    /* padding-top: 25px; */
+}
+.end{
+    /* border: 2px solid black; */
+    width: 220px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.innerHolder p strong{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.p{
+    font-size: 16px;
+    color: rgb(120, 120, 120);
+}
+@media (width <900px){
+    .endingHolder{
+        display: flex;
+        flex-direction:column
+    }
+    .endOne{
+        width: 170px;
+    }
+    .end{
+        width: 170px;
+    }
+}
+
+.lastPart{
+    /* border: 2px solid grey; */
+    width: 100vw;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.868);
+    display: flex;
+    justify-content: space-evenly;
+}
+.bestPart{
+    /* border: 2px solid blue; */
+    /* background-color: rgba(0, 0, 0, 0.829); */
+    color: whitesmoke;
+    font-size: 14px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.lastPart l{
+    /* border: 2px solid; */
+    text-decoration: underline;
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+}
+.lastPart p{
+    width: 50%;
+}
+@media (width <900px){
+    .bestPart{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
